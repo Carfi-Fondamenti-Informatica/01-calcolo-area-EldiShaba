@@ -1,14 +1,11 @@
 #include <iostream>
 using namespace std;
 int main() {
-    float a,b,c;
+    float a=0,b=0,c=0;
     cin>>a>>b>>c;
-    cout<<"area triangolo= "<<(a+b)/2;
-    cout<<"\narea quadrato= "<<a*a;
-    cout<<"\nArea Rettangolo= "<<a+b;
-    cout<<"\nArea Trapezio= "<<((a*b)*c)/2;
+    cout<<(a+b)/2<<endl;
+    cout<<a*a<<endl;
+    cout<<a+b<<endl;
+    cout<<((a*b)*c)/2<<endl;
     return 0;
-}
-
-
 }
